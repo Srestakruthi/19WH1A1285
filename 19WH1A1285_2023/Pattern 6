@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int i, j, n,space;
+    cin>>n;
+    for(i=1; i<=n; i++){
+        for(space = 0; space<i; space++){
+            cout<<" ";
+        }
+        for(j=n; j>=i; j--){
+            
+            cout<<"* ";
+            
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
